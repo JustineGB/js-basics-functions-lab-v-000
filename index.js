@@ -2,6 +2,7 @@ function distanceFromHqInBlocks(someValue) {
   return somevalue - 42
 }
 
+
 function distanceFromHqInFeet(someValue) {
   
   // distanceFromHqInBlocks(someValue);
