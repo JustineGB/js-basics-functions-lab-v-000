@@ -1,7 +1,7 @@
 // Code your solution in this file!
 
 function distanceFromHqInBlocks(someValue) {
-  return '(${somevalue} - 42)'
+  return somevalue - 42
 }
 
 
