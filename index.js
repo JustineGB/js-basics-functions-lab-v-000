@@ -15,7 +15,7 @@ function distanceTravelledInFeet(end, start) {
   if (end > start) {
     let blocks = start - end;
     return blocks * 264;}
-  else (start >end) {
+  else {
     let blocks = end - start;
     return blocks * 264;}
 }
