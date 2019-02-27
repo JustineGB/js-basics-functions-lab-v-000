@@ -18,6 +18,7 @@ function distanceTravelledInFeet(end, start) {
     return blocks * 264;
   else start >end 
     let blocks = end - start;
+     return blocks * 264;
   // Calculates the number of feet a passenger travels given a starting block and an ending block - it only calculates distance North and South (uptown/downtown). It uses the knowledge that a block is 264 feet long.
 }
 
