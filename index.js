@@ -20,9 +20,9 @@ function distanceTravelledInFeet(start, end ) {
     return blocks * 264;}
 }
 
-// function calculatesFarePrice(someValue) {
-//   distanceTravelledInFeet(someValue);
-//   // Calculates the number of feet a passenger travels given a starting block and an ending block - it only calculates distance North and South (uptown/downtown). It uses the knowledge that a block is 264 feet long.
-// }
+function calculatesFarePrice(someValue) {
+  distanceTravelledInFeet(someValue);
+  // Calculates the number of feet a passenger travels given a starting block and an ending block - it only calculates distance North and South (uptown/downtown). It uses the knowledge that a block is 264 feet long.
+}
 
 
