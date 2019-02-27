@@ -26,7 +26,7 @@ function calculatesFarePrice(start, end) {
     return 0;}
   else if (400 >= x <= 2000) {
     return (x - 400) * 0.02;}
-  else if (2000 < x < 2500) {
+  else if (x > 2000 && x < 2500) {
     return 25;}
   else if (x >= 2500) {
     return 'cannot travel that far';}
