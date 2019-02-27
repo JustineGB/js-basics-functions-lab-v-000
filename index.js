@@ -13,4 +13,9 @@ function distanceFromHqInFeet(someValue) {
   //returns a distance in feet
 }
 
-distanceTravelledInFeet
+function distanceTravelledInFeet(someValue) {
+  // distanceFromHqInBlocks(someValue);
+  //returns a distance in feet
+}
+
+
