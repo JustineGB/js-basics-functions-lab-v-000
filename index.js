@@ -11,8 +11,8 @@ function distanceFromHqInFeet(someValue) {
   //returns a distance in feet
 }
 
-function distanceTravelledInFeet(end, start) {
-  if (end > start) {
+function distanceTravelledInFeet(start, end ) {
+  if (start > end) {
     let blocks = start - end;
     return blocks * 264;}
   else {
