@@ -25,7 +25,7 @@ function calculatesFarePrice(start, end) {
   if (x <= 400) {
     return "Free Sample";
   }
-  elsif
+  else 
   return x;
 }
 
