@@ -11,14 +11,14 @@ function distanceFromHqInFeet(someValue) {
   //returns a distance in feet
 }
 
-function distanceTravelledInFeet(end, start) {
-  if (end > start) {
-    let blocks = start - end;
-    return blocks * 264;}
-  else (start >end) { 
-    let blocks = end - start;
-     return blocks * 264;}
-}
+// function distanceTravelledInFeet(end, start) {
+//   if (end > start) {
+//     let blocks = start - end;
+//     return blocks * 264;}
+//   else (start >end) { 
+//     let blocks = end - start;
+//     return blocks * 264;}
+// }
 
 // function calculatesFarePrice(someValue) {
 //   distanceTravelledInFeet(someValue);
