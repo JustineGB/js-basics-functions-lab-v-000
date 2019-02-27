@@ -23,7 +23,7 @@ function distanceTravelledInFeet(start, end ) {
 function calculatesFarePrice(start, end) {
   let x = distanceTravelledInFeet(start, end);
   if (x <= 400) {
-    return "Free Sample";}
+    return 0;}
   if (400 > x < 2000) {
     return (x - 400) * 0.02;}
   if (2000 <= x > 2500) {
